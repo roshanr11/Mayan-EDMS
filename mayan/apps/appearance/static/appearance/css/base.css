@@ -397,7 +397,17 @@ a i {
     color: #d9534f;
 }
 
-.btn-default.btn-outline:hover,
+.btn-default {
+    color: #000000 !important;
+}
+
+.help-block {
+    color: #000000 !important;
+}
+
+.btn-default.btn-outline:hover {
+    color: #000000 !important;
+}
 .btn-primary.btn-outline:hover,
 .btn-success.btn-outline:hover,
 .btn-info.btn-outline:hover,
